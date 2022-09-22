@@ -1,0 +1,28 @@
+.footer {
+  background: #2F324B;
+}
+
+.footer__flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 45px;
+  padding-bottom: 45px;
+}
+
+.footer__block {
+  display: flex;
+  align-items: center;
+  gap: 19px;
+}
+
+.footer__text {
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 17px;
+  color: #ffffff;
+}
+
+.footer__company {
+  max-width: 127px;
+}

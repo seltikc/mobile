@@ -1,0 +1,8 @@
+@import "normalize.css";
+@import "./block/fonts.css";
+@import "./block/style.css";
+@import "./block/header.css";
+@import "./block/trade.css";
+@import "./block/advantages.css";
+@import "./block/questions.css";
+@import "./block/footer.css";
