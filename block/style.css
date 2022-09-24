@@ -70,6 +70,12 @@ iframe {
   margin: 0 auto;
 }
 
+@media (max-width: 320px) {
+  .container {
+    padding: 0 15px;
+  }
+}
+
 .blockquote {
   text-transform: uppercase;
 }

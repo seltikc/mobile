@@ -1,9 +1,10 @@
 .page {
   background: url("../image/mockup.png") no-repeat;
+  background-position: left;
   background-size: cover;
   position: relative;
   width: 100%;
-  min-height: 732px;
+  min-height: 743px;
 }
 
 .page:before {
@@ -35,17 +36,21 @@
   display: flex;
   flex-direction: column;
   gap: 5px;
+  margin-bottom: 15px;
 }
 
 .contacts__tel {
-  font-size: 24px;
+  font-size: 23.85px;
   line-height: 28px;
+  font-weight: 400;
   color: #ffffff;
+  margin-right: 3px;
 }
 
 .contacts__text {
   font-size: 16px;
   line-height: 19px;
+  font-weight: 400;
   text-align: center;
   position: relative;
   color: #ffffff;
@@ -59,4 +64,75 @@
   width: 130px;
   height: 1px;
   right: 36px;
+}
+
+.icon {
+  display: none;
+}
+
+@media (max-width: 1024px) {
+
+  .page {
+    min-height: 552px;
+  }
+
+  .header__img {
+    width: 60px;
+    height: 60px;
+  }
+
+  .header__flex {
+    margin-bottom: 52px;
+  }
+
+  .contacts {
+    margin-bottom: 22px;
+    width: 182px;
+  }
+
+  .contacts__tel {
+    font-weight: 400;
+    font-size: 21px;
+    line-height: 25px;
+    margin-right: 0;
+  }
+
+  .contacts__text {
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 15px;
+  }
+
+  .contacts__text:after {
+    width: 110px;
+    margin-top: 4px;
+  }
+}
+
+@media (max-width: 320px) {
+
+  .page {
+    min-height: 441px;
+  }
+
+  .header__img {
+    width: 30px;
+    height: 30px;
+  }
+
+  .header__flex {
+    padding-top: 12px;
+    margin-bottom: 49px;
+  }
+
+  .contacts {
+    display: none;
+  }
+
+  .icon {
+    display: block;
+    position: absolute;
+    right: 18px;
+    top: 15px;
+  }
 }

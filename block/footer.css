@@ -17,12 +17,89 @@
 }
 
 .footer__text {
+  display: block;
   font-weight: 500;
   font-size: 12px;
   line-height: 17px;
   color: #ffffff;
+  margin-bottom: 15px;
+  width: 176px;
 }
 
 .footer__company {
   max-width: 127px;
+  margin-bottom: 15px;
+}
+
+.footer__contacts {
+  width: 211px;
+}
+
+@media (max-width: 1024px) {
+
+  .footer__flex {
+    padding-top: 35px;
+    padding-bottom: 33px;
+  }
+
+  .footer__contacts {
+    width: 184px;
+    margin-bottom: 13px;
+  }
+
+  .contacts__text-footer {
+    margin-bottom: 7px;
+  }
+
+  .footer__text-table {
+    margin-right: 96px;
+  }
+
+  .footer__text {
+    width: 184px;
+  }
+}
+
+@media (max-width: 320px) {
+
+  .footer__block {
+    display: flex;
+    margin-bottom: 14px;
+  }
+
+  .footer__flex {
+    display: block;
+    padding-top: 0;
+    padding-bottom: 20px;
+    position: relative;
+  }
+
+  .footer__text {
+    font-size: 8px;
+    line-height: 11px;
+  }
+
+  .footer__company {
+    max-width: 87.3px;
+    margin-bottom: 26px;
+    font-size: 8px;
+    line-height: 11px;
+  }
+
+  .footer__text-mobile {
+    margin: 0 auto;
+    text-align: center;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 17px;
+  }
+
+  .footer__icon {
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+
+
 }
